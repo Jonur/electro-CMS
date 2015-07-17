@@ -1,0 +1,105 @@
+/***********************************************/
+/*              General properties             */
+/***********************************************/
+body,html{ 
+	margin:0;
+	padding:0;
+	height:auto;
+	min-height:100%;
+	
+	background-color: #ececec;
+	
+	font-family: Arial, Verdana;
+	font-size: 11px;
+	color: #2d2f30;
+}
+/************************************************
+	COLOR TABLE:
+	Red-ish: #be1e2d;
+	Blue-ish: #1270af;
+	Purple-ish: #893c99;
+	Green-ish: #89a31c;
+/***********************************************/
+.clear{
+	clear:both;
+}
+/***********************************************/
+/*         #content_area Sub areas             */
+/***********************************************/
+.form_left{
+	position: relative;
+	float: left;
+	width: 140px;
+	min-height: 22px;
+	line-height: 22px;
+	font-size: 1.272rem;
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+.form_right{
+	position: relative;
+	float: left;
+	width: 472px;
+	min-height: 22px;
+	line-height: 22px;
+	font-size: 1.272rem;
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+/***********************************************/
+/*       #content_area Font Styles              */
+/***********************************************/
+.form_button{
+	position: relative;
+	width:100px;
+	height:30px;
+	border: none;
+	background-color:#89a31c;
+	margin-bottom: 20px;
+	cursor:pointer;
+	
+	color: #fff;
+	font-size: 1.272rem;
+}
+.form_button:hover{
+	background-color:#d9d9d9;
+	color: #2d2f30;
+	border: 2px solid #d3d3d3;
+}
+.mandatory_field{
+	font-size: 1.09rem;
+	color: #be1e2d;
+	text-decoration:none;
+}
+.validation_message_true{
+	font-size: 1.09rem;
+	color: #89a31c;
+	text-decoration:none;
+	margin-bottom: 10px;
+}
+.validation_message_false{
+	font-size: 1.09rem;
+	color: #be1e2d;
+	text-decoration:none;
+	margin-bottom: 10px;
+}
+/***********************************************/
+/*              input styles                   */
+/***********************************************/
+input.long{
+	position: relative;
+	width: 440px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 1.09rem;
+	text-decoration: none;
+	border: 1px solid #4e96c6;
+	padding: 0px 5px 0px 5px;
+}
+/***********************************************/
+/*               form styles                   */
+/***********************************************/
+.popup_form{
+	margin-top: 30px;
+	margin-left: 20px;
+}
